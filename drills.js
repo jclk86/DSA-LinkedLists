@@ -477,7 +477,7 @@ function sortLinkedList(linkedList) {
   while (shouldSort) {
     // Reset shouldSort to false to continue inner looping
     shouldSort = false;
-
+    // if currentNode.next exists
     while (currentNode.next) {
       if (currentNode.value > currentNode.next.value) {
         // swap the values of the current and next node
